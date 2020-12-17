@@ -1,0 +1,19 @@
+{
+  "name": "class1",
+  "version": "0.0.1",
+  "description": "\"my 1st server \"",
+  "main": "servser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cls && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no-repo"
+  },
+  "author": "Mohammad Mobeen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
