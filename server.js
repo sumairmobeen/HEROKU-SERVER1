@@ -26,7 +26,7 @@ server.get("/c", (req, res, next) => {
     res.send("qurma is available in RS/50");
 });
 
-server.listen(5000, () => { console.log("server is running on port " + PORT) });
+server.listen(PORT, () => { console.log("server is running on port " + PORT) });
 
 
 
