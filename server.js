@@ -1,3 +1,6 @@
+
+const PORT = process.env.PORT || 5000
+
 var express = require("express");
 const { start } = require("repl");
 
@@ -23,7 +26,7 @@ server.get("/c", (req, res, next) => {
     res.send("qurma is available in RS/50");
 });
 
-server.listen(5000, () => { console.log("server is running on port 5000") });
+server.listen(5000, () => { console.log("server is running on port " + PORT) });
 
 
 
